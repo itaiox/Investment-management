@@ -1,7 +1,7 @@
 from datadog_api_client import ApiClient, Configuration
 from datadog_api_client.v1.api.monitors_api import MonitorsApi
 from datadog_api_client.v1.model.monitor import Monitor
-from datadog_api_client.v1.model.monitor_type import MonitorType
+from datadog_api_client.v1.model.monitor_type import MonitorType 
 
 body = Monitor(
     name="example",
